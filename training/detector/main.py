@@ -58,6 +58,7 @@ def main():
     
     
     torch.manual_seed(0)
+    print(torch.cuda.device_count())
     torch.cuda.set_device(0)
 
     model = import_module(args.model)

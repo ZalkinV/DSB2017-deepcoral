@@ -36,22 +36,32 @@ def get_pixels_hu(slices):
     # should be possible as values should always be low enough (<32k)
     image = image.astype(np.int16)
     
+    print('2')
     # Convert to Hounsfield units (HU)
-    for slice_number in range(len(slices)):        
-        intercept = slices[slice_number].RescaleIntercept
-        slope = slices[slice_number].RescaleSlope
+    for slice_number in range(len(slices)):
+        try:
+            intercept = slices[slice_number].RescaleIntercept
+            slope = slices[slice_number].RescaleSlope
+        except:
+            print("FUCK")
+        print(12)
         
         if slope != 1:
-            image[slice_number] = slope * image[slice_number].astype(np.float64)
-            image[slice_number] = image[slice_number].astype(np.int16)
-            
-        image[slice_number] += np.int16(intercept)
-    
+            try:
+                image[slice_number] = slope * image[slice_number].astype(np.float64)
+                image[slice_number] = image[slice_number].astype(np.int16)
+            except:
+                print("FUCK")
+        try:
+            image[slice_number] += np.int16(intercept)
+        except:
+            print("FUCK")
+        
     return np.array(image, dtype=np.int16), np.array([slices[0].SliceThickness] + slices[0].PixelSpacing, dtype=np.float32)
 
 def binarize_per_slice(image, spacing, intensity_th=-600, sigma=1, area_th=30, eccen_th=0.99, bg_patch_size=10):
     bw = np.zeros(image.shape, dtype=bool)
-    
+     
     # prepare a mask, with all corner values set to nan
     image_size = image.shape[1]
     grid_axis = np.linspace(-image_size/2+0.5, image_size/2-0.5, image_size)
@@ -59,23 +69,27 @@ def binarize_per_slice(image, spacing, intensity_th=-600, sigma=1, area_th=30, e
     d = (x**2+y**2)**0.5
     nan_mask = (d<image_size/2).astype(float)
     nan_mask[nan_mask == 0] = np.nan
-    for i in range(image.shape[0]):
-        # Check if corner pixels are identical, if so the slice  before Gaussian filtering
-        if len(np.unique(image[i, 0:bg_patch_size, 0:bg_patch_size])) == 1:
-            current_bw = scipy.ndimage.filters.gaussian_filter(np.multiply(image[i].astype('float32'), nan_mask), sigma, truncate=2.0) < intensity_th
-        else:
-            current_bw = scipy.ndimage.filters.gaussian_filter(image[i].astype('float32'), sigma, truncate=2.0) < intensity_th
+    print("HERE1")
+    try:
+        for i in range(image.shape[0]):
+            # Check if corner pixels are identical, if so the slice  before Gaussian filtering
+            if len(np.unique(image[i, 0:bg_patch_size, 0:bg_patch_size])) == 1:
+                current_bw = scipy.ndimage.filters.gaussian_filter(np.multiply(image[i].astype('float32'), nan_mask), sigma, truncate=2.0) < intensity_th
+            else:
+                current_bw = scipy.ndimage.filters.gaussian_filter(image[i].astype('float32'), sigma, truncate=2.0) < intensity_th
+            # select proper components
         
-        # select proper components
-        label = measure.label(current_bw)
-        properties = measure.regionprops(label)
-        valid_label = set()
-        for prop in properties:
-            if prop.area * spacing[1] * spacing[2] > area_th and prop.eccentricity < eccen_th:
-                valid_label.add(prop.label)
-        current_bw = np.in1d(label, list(valid_label)).reshape(label.shape)
-        bw[i] = current_bw
-        
+            label = measure.label(current_bw)
+            properties = measure.regionprops(label)
+            valid_label = set()
+            for prop in properties:
+                if prop.area * spacing[1] * spacing[2] > area_th and prop.eccentricity < eccen_th:
+                    valid_label.add(prop.label)
+            current_bw = np.in1d(label, list(valid_label)).reshape(label.shape)
+            bw[i] = current_bw
+    except:
+        print("FUCK")
+    print("HERE3")    
     return bw
 
 def all_slice_analysis(bw, spacing, cut_num=0, vol_limit=[0.68, 8.2], area_th=6e3, dist_th=62):
@@ -227,17 +241,26 @@ def two_lung_only(bw, spacing, max_iter=22, max_ratio=4.8):
 
 def step1_python(case_path):
     case = load_scan(case_path)
+    print('Before getPiHu')
     case_pixels, spacing = get_pixels_hu(case)
+    print(22)
+    print("HERE")
     bw = binarize_per_slice(case_pixels, spacing)
     flag = 0
+    print(33)
     cut_num = 0
     cut_step = 2
     bw0 = np.copy(bw)
-    while flag == 0 and cut_num < bw.shape[0]:
-        bw = np.copy(bw0)
-        bw, flag = all_slice_analysis(bw, spacing, cut_num=cut_num, vol_limit=[0.68,7.5])
-        cut_num = cut_num + cut_step
+    print(44)
+    try:
+        while flag == 0 and cut_num < bw.shape[0]:
+            bw = np.copy(bw0)
+            bw, flag = all_slice_analysis(bw, spacing, cut_num=cut_num, vol_limit=[0.68,7.5])
+            cut_num = cut_num + cut_step
+    except:
+        print("FUCK")
 
+    print(55)
     bw = fill_hole(bw)
     bw1, bw2, bw = two_lung_only(bw, spacing)
     return case_pixels, bw1, bw2, spacing

@@ -21,7 +21,7 @@ import sys
 sys.path.append('../preprocessing')
 from step1 import step1_python
 import warnings
-
+lll = []
 def resample(imgs, spacing, new_spacing,order=2):
     if len(imgs.shape)==3:
         new_shape = np.round(imgs.shape * spacing / new_spacing)
@@ -94,11 +94,16 @@ def savenpy(id,annos,filelist,data_path,prep_folder):
     resolution = np.array([1,1,1])
     name = filelist[id]
     label = annos[annos[:,0]==name]
+    #print("label is : {}".format(label))
     label = label[:,[3,1,2,4]].astype('float')
-    
+    #print("label2 is : {}".format(label))
+    print('Before step1 {} {}'.format(name,len(label)))
+    global lll
+    lll.append(name)
     im, m1, m2, spacing = step1_python(os.path.join(data_path,name))
     Mask = m1+m2
-    
+
+    print('After step1 {} {}'.format(name,len(label)))
     newshape = np.round(np.array(Mask.shape)*spacing/resolution)
     xx,yy,zz= np.where(Mask)
     box = np.array([[np.min(xx),np.max(xx)],[np.min(yy),np.max(yy)],[np.min(zz),np.max(zz)]])
@@ -107,7 +112,6 @@ def savenpy(id,annos,filelist,data_path,prep_folder):
     margin = 5
     extendbox = np.vstack([np.max([[0,0,0],box[:,0]-margin],0),np.min([newshape,box[:,1]+2*margin],axis=0).T]).T
     extendbox = extendbox.astype('int')
-
 
 
     convex_mask = m1
@@ -146,12 +150,11 @@ def savenpy(id,annos,filelist,data_path,prep_folder):
         label2[:3] = label2[:3]-np.expand_dims(extendbox[:,0],1)
         label2 = label2[:4].T
     np.save(os.path.join(prep_folder,name+'_label.npy'),label2)
-
+    lll.remove(name)
     print(name)
 
 def full_prep(step1=True,step2 = True):
     warnings.filterwarnings("ignore")
-
     #preprocess_result_path = './prep_result'
     prep_folder = config['preprocess_result_path']
     data_path = config['stage1_data_path']
@@ -174,16 +177,24 @@ def full_prep(step1=True,step2 = True):
         print('starting preprocessing')
         pool = Pool()
         filelist = [f for f in os.listdir(data_path)]
+        print(data_path)
+        print(filelist)
+        print(len(filelist))
+        print(alllabel)
+        print(len(alllabel))
         partial_savenpy = partial(savenpy,annos= alllabel,filelist=filelist,data_path=data_path,prep_folder=prep_folder )
 
         N = len(filelist)
             #savenpy(1)
-        _=pool.map(partial_savenpy,range(N))
+        try:
+            _=pool.map(partial_savenpy,range(N))
+        except Exception as e:
+            print(pool,e,partial_savenpy)
         pool.close()
         pool.join()
+        print(lll)
         print('end preprocessing')
     f= open(finished_flag,"w+")        
-
 def savenpy_luna(id,annos,filelist,luna_segment,luna_data,savepath):
     islabel = True
     isClean = True

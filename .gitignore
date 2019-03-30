@@ -2,6 +2,7 @@
 
 *.ipynb
 training/.flag*
+training/log.txt
 prediction*.csv
 
 
