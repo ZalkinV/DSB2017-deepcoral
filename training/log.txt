@@ -1,0 +1,2351 @@
+starting preprocessing
+Before step1 114359 19
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 114359 19
+Before step1 112746 12
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 112746 12
+Before step1 106442 10
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 106442 10
+Before step1 106284 13
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 106284 13
+Before step1 111696 1
+Before step1 MR033420 26
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR033420 26
+Before step1 MR054875 9
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR054875 9
+Before step1 105374 5
+Before getPiHu
+2
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 105374 5
+Before step1 MR050687 22
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR050687 22
+Before step1 MR037458B 21
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR037458B 21
+Before step1 97461 25
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 97461 25
+Before step1 111075 17
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 111075 17
+Before step1 99288 3
+Before getPiHu
+2
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 99288 3
+Before step1 90284 19
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 90284 19
+Before step1 113554 10
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 113554 10
+Before step1 100416 4
+Before getPiHu
+2
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 100416 4
+Before step1 113971 2
+Before getPiHu
+2
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 113971 2
+Before step1 112027 2
+Before getPiHu
+2
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 112027 2
+Before step1 103582 19
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 103582 19
+Before step1 97890 14
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 97890 14
+Before step1 58392 1
+Before step1 107505 17
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 107505 17
+Before step1 MR037458C 19
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR037458C 19
+Before step1 MR050791B 22
+Before getPiHu
+2
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+12
+22
+HERE
+HERE1
+HERE3
+33
+44
+55
+After step1 MR050791B 22
+/home/itip_m3406/Yukhtenko/brainTumorData
+['97461', '99089', '114094', 'MR056144', '113805', '53669', '106720', '101145', '110116', '103837', '114359', 'MR051644B', '96587', '106494', 'MR033389B', '114417', 'MR051461B', '88670', '105538', 'MR024780G', '111696', 'MR049019C', '112074', '111077', 'MR051644C', '103670', 'MR051651B', 'MR026175C', '99308', '99815', '97890', '103673', '98472', 'MR049104', '108590', 'MR048621B', '101724', 'MR050687C', '101127', '97609', '99288', 'MR040240D', '111125', '97943', '108550', '113614', '102075', '104684', '105653', '112649', 'MR050687', '101801', 'MR053110E', 'MR048294B', 'MR051644', '106062', 'MR049358', '95969', '107495', '111532', 'MR033420', '107190', 'MR029209I', '109411', '111710', 'MR029209E', '98652', '104912', 'MR053110B', 'MR049019G', '90284', 'MR029209G', 'MR049453', '102714', 'MR049142', 'MR047953C', 'MR032322C', 'MR026175E', '114018', '112062', '58392', 'MR039473B', '109898', 'MR048297', '106914', '108931', '107747', '93825', 'MR034694', '97416', '107505', '105937', '105187', '99162', 'MR038469', '102675', 'MR051651', 'MR024780D', 'MR048944', '100639', '112746', 'MR052585B', '97374', 'MR049104B', '111366', '109471', '103731', '103257', '104558', '102985', 'MR037458C', '97607', '113274', '98874', '112650', '107429', '93329', '107494', '98889', '112002', '113554', '104281', '99017', '103148', '114361', 'MR048994', '101384', 'MR024780B', '102818', '104695', 'MR037458B', '95142', '110808', 'MR051796', '105936', 'MR049242C', '102960', '88510', 'MR054683', '113435', '106442', '112552', '105555', 'MR031409B', 'MR039473', '107743', '98992', '107248', 'MR048944B', '110518', '100416', '101020', 'MR036496B', '103478', 'MR040240', '106534', '97481', '108514', '102648', '102935', '113971', '103925', '106665', 'MR052550', '97793', '99223', '103046', '104167', '114040', '97875', '112027', '100572', '97599', 'MR051461', '104019', 'MR050135B', '113098', 'MR051586', '112105', '97737', '103582', '108858', '94731', '109968', '101305', 'MR053241C', '100360', '108945', 'MR048294', 'MR024780E', '106284', 'MR049942B', '101029', '105475', 'MR040240B', '110537', '102420', 'MR017260F', 'MR034997', 'MR040240C', 'MR054875', '100920', '111785', '92897', '106592', '112847', '102929', 'MR051796B', 'MR049453B', '112252', '111075', '103671', '112648', '101797', '109769', '100820', '101017', '98995', '109350', '113741', 'MR050791B', '107946', '101016', 'MR048994B', '98871', '108479', '110993', '101082', '98241', '105638', '105374', '102669', '102446']
+233
+[['100360' 318.8201 219.6382 0.0 113.3648]
+ ['100360' 313.1429 209.6167 1.0 113.2822]
+ ['100360' 328.5585 217.1217 2.0 125.77]
+ ..., 
+ ['MR029209I' 355.0915 166.0716 25.0 36.5714]
+ ['95969' 127.6254 293.4634 0.0 59.9415]
+ ['88510' 281.6891 149.9768 0.0 73.652]]
+3064
+(<multiprocessing.pool.Pool object at 0x7ff5ec13b110>, IndexError('list index out of range',), <functools.partial object at 0x7ff5ec0d4940>)
+[]
+end preprocessing
+start changing luna name
+ElementDataFile = 123.zraw
+
+ElementDataFile = 413.zraw
+
+ElementDataFile = 807.zraw
+
+ElementDataFile = 289.zraw
+
+ElementDataFile = 190.zraw
+
+ElementDataFile = 097.zraw
+
+ElementDataFile = 472.zraw
+
+ElementDataFile = 102.zraw
+
+ElementDataFile = 427.zraw
+
+ElementDataFile = 623.zraw
+
+ElementDataFile = 715.zraw
+
+ElementDataFile = 810.zraw
+
+ElementDataFile = 479.zraw
+
+ElementDataFile = 702.zraw
+
+ElementDataFile = 513.zraw
+
+ElementDataFile = 101.zraw
+
+ElementDataFile = 110.zraw
+
+ElementDataFile = 020.zraw
+
+ElementDataFile = 598.zraw
+
+ElementDataFile = 854.zraw
+
+ElementDataFile = 861.zraw
+
+ElementDataFile = 542.zraw
+
+ElementDataFile = 303.zraw
+
+ElementDataFile = 298.zraw
+
+ElementDataFile = 051.zraw
+
+ElementDataFile = 300.zraw
+
+ElementDataFile = 726.zraw
+
+ElementDataFile = 227.zraw
+
+ElementDataFile = 470.zraw
+
+ElementDataFile = 273.zraw
+
+ElementDataFile = 465.zraw
+
+ElementDataFile = 750.zraw
+
+ElementDataFile = 533.zraw
+
+ElementDataFile = 108.zraw
+
+ElementDataFile = 628.zraw
+
+ElementDataFile = 593.zraw
+
+ElementDataFile = 485.zraw
+
+ElementDataFile = 834.zraw
+
+ElementDataFile = 324.zraw
+
+ElementDataFile = 700.zraw
+
+ElementDataFile = 067.zraw
+
+ElementDataFile = 529.zraw
+
+ElementDataFile = 271.zraw
+
+ElementDataFile = 556.zraw
+
+ElementDataFile = 235.zraw
+
+ElementDataFile = 540.zraw
+
+ElementDataFile = 681.zraw
+
+ElementDataFile = 709.zraw
+
+ElementDataFile = 811.zraw
+
+ElementDataFile = 434.zraw
+
+ElementDataFile = 535.zraw
+
+ElementDataFile = 650.zraw
+
+ElementDataFile = 403.zraw
+
+ElementDataFile = 321.zraw
+
+ElementDataFile = 602.zraw
+
+ElementDataFile = 249.zraw
+
+ElementDataFile = 090.zraw
+
+ElementDataFile = 397.zraw
+
+ElementDataFile = 011.zraw
+
+ElementDataFile = 609.zraw
+
+ElementDataFile = 274.zraw
+
+ElementDataFile = 104.zraw
+
+ElementDataFile = 173.zraw
+
+ElementDataFile = 075.zraw
+
+ElementDataFile = 667.zraw
+
+ElementDataFile = 555.zraw
+
+ElementDataFile = 408.zraw
+
+ElementDataFile = 452.zraw
+
+ElementDataFile = 852.zraw
+
+ElementDataFile = 320.zraw
+
+ElementDataFile = 253.zraw
+
+ElementDataFile = 330.zraw
+
+ElementDataFile = 077.zraw
+
+ElementDataFile = 499.zraw
+
+ElementDataFile = 165.zraw
+
+ElementDataFile = 424.zraw
+
+ElementDataFile = 705.zraw
+
+ElementDataFile = 422.zraw
+
+ElementDataFile = 041.zraw
+
+ElementDataFile = 366.zraw
+
+ElementDataFile = 627.zraw
+
+ElementDataFile = 605.zraw
+
+ElementDataFile = 433.zraw
+
+ElementDataFile = 056.zraw
+
+ElementDataFile = 756.zraw
+
+ElementDataFile = 502.zraw
+
+ElementDataFile = 855.zraw
+
+ElementDataFile = 631.zraw
+
+ElementDataFile = 484.zraw
+
+ElementDataFile = 372.zraw
+
+ElementDataFile = 340.zraw
+
+ElementDataFile = 339.zraw
+
+ElementDataFile = 835.zraw
+
+ElementDataFile = 717.zraw
+
+ElementDataFile = 089.zraw
+
+ElementDataFile = 701.zraw
+
+ElementDataFile = 662.zraw
+
+ElementDataFile = 583.zraw
+
+ElementDataFile = 668.zraw
+
+ElementDataFile = 066.zraw
+
+ElementDataFile = 488.zraw
+
+ElementDataFile = 483.zraw
+
+ElementDataFile = 168.zraw
+
+ElementDataFile = 352.zraw
+
+ElementDataFile = 588.zraw
+
+ElementDataFile = 887.zraw
+
+ElementDataFile = 816.zraw
+
+ElementDataFile = 781.zraw
+
+ElementDataFile = 379.zraw
+
+ElementDataFile = 117.zraw
+
+ElementDataFile = 443.zraw
+
+ElementDataFile = 116.zraw
+
+ElementDataFile = 812.zraw
+
+ElementDataFile = 842.zraw
+
+ElementDataFile = 018.zraw
+
+ElementDataFile = 541.zraw
+
+ElementDataFile = 641.zraw
+
+ElementDataFile = 500.zraw
+
+ElementDataFile = 006.zraw
+
+ElementDataFile = 267.zraw
+
+ElementDataFile = 392.zraw
+
+ElementDataFile = 445.zraw
+
+ElementDataFile = 720.zraw
+
+ElementDataFile = 407.zraw
+
+ElementDataFile = 012.zraw
+
+ElementDataFile = 375.zraw
+
+ElementDataFile = 130.zraw
+
+ElementDataFile = 285.zraw
+
+ElementDataFile = 536.zraw
+
+ElementDataFile = 040.zraw
+
+ElementDataFile = 058.zraw
+
+ElementDataFile = 154.zraw
+
+ElementDataFile = 360.zraw
+
+ElementDataFile = 071.zraw
+
+ElementDataFile = 094.zraw
+
+ElementDataFile = 845.zraw
+
+ElementDataFile = 059.zraw
+
+ElementDataFile = 365.zraw
+
+ElementDataFile = 559.zraw
+
+ElementDataFile = 287.zraw
+
+ElementDataFile = 401.zraw
+
+ElementDataFile = 144.zraw
+
+ElementDataFile = 716.zraw
+
+ElementDataFile = 577.zraw
+
+ElementDataFile = 830.zraw
+
+ElementDataFile = 568.zraw
+
+ElementDataFile = 552.zraw
+
+ElementDataFile = 685.zraw
+
+ElementDataFile = 545.zraw
+
+ElementDataFile = 292.zraw
+
+ElementDataFile = 566.zraw
+
+ElementDataFile = 875.zraw
+
+ElementDataFile = 280.zraw
+
+ElementDataFile = 207.zraw
+
+ElementDataFile = 266.zraw
+
+ElementDataFile = 804.zraw
+
+ElementDataFile = 442.zraw
+
+ElementDataFile = 477.zraw
+
+ElementDataFile = 038.zraw
+
+ElementDataFile = 344.zraw
+
+ElementDataFile = 376.zraw
+
+ElementDataFile = 769.zraw
+
+ElementDataFile = 865.zraw
+
+ElementDataFile = 576.zraw
+
+ElementDataFile = 692.zraw
+
+ElementDataFile = 429.zraw
+
+ElementDataFile = 789.zraw
+
+ElementDataFile = 441.zraw
+
+ElementDataFile = 024.zraw
+
+ElementDataFile = 837.zraw
+
+ElementDataFile = 634.zraw
+
+ElementDataFile = 669.zraw
+
+ElementDataFile = 216.zraw
+
+ElementDataFile = 092.zraw
+
+ElementDataFile = 699.zraw
+
+ElementDataFile = 342.zraw
+
+ElementDataFile = 119.zraw
+
+ElementDataFile = 591.zraw
+
+ElementDataFile = 174.zraw
+
+ElementDataFile = 504.zraw
+
+ElementDataFile = 399.zraw
+
+ElementDataFile = 707.zraw
+
+ElementDataFile = 544.zraw
+
+ElementDataFile = 884.zraw
+
+ElementDataFile = 084.zraw
+
+ElementDataFile = 252.zraw
+
+ElementDataFile = 833.zraw
+
+ElementDataFile = 081.zraw
+
+ElementDataFile = 539.zraw
+
+ElementDataFile = 353.zraw
+
+ElementDataFile = 558.zraw
+
+ElementDataFile = 682.zraw
+
+ElementDataFile = 398.zraw
+
+ElementDataFile = 618.zraw
+
+ElementDataFile = 132.zraw
+
+ElementDataFile = 432.zraw
+
+ElementDataFile = 867.zraw
+
+ElementDataFile = 783.zraw
+
+ElementDataFile = 416.zraw
+
+ElementDataFile = 113.zraw
+
+ElementDataFile = 649.zraw
+
+ElementDataFile = 361.zraw
+
+ElementDataFile = 524.zraw
+
+ElementDataFile = 862.zraw
+
+ElementDataFile = 848.zraw
+
+ElementDataFile = 314.zraw
+
+ElementDataFile = 840.zraw
+
+ElementDataFile = 370.zraw
+
+ElementDataFile = 230.zraw
+
+ElementDataFile = 139.zraw
+
+ElementDataFile = 369.zraw
+
+ElementDataFile = 858.zraw
+
+ElementDataFile = 388.zraw
+
+ElementDataFile = 414.zraw
+
+ElementDataFile = 008.zraw
+
+ElementDataFile = 338.zraw
+
+ElementDataFile = 218.zraw
+
+ElementDataFile = 757.zraw
+
+ElementDataFile = 186.zraw
+
+ElementDataFile = 350.zraw
+
+ElementDataFile = 528.zraw
+
+ElementDataFile = 698.zraw
+
+ElementDataFile = 813.zraw
+
+ElementDataFile = 395.zraw
+
+ElementDataFile = 404.zraw
+
+ElementDataFile = 213.zraw
+
+ElementDataFile = 694.zraw
+
+ElementDataFile = 043.zraw
+
+ElementDataFile = 506.zraw
+
+ElementDataFile = 010.zraw
+
+ElementDataFile = 254.zraw
+
+ElementDataFile = 400.zraw
+
+ElementDataFile = 882.zraw
+
+ElementDataFile = 474.zraw
+
+ElementDataFile = 017.zraw
+
+ElementDataFile = 657.zraw
+
+ElementDataFile = 014.zraw
+
+ElementDataFile = 819.zraw
+
+ElementDataFile = 057.zraw
+
+ElementDataFile = 693.zraw
+
+ElementDataFile = 776.zraw
+
+ElementDataFile = 315.zraw
+
+ElementDataFile = 270.zraw
+
+ElementDataFile = 639.zraw
+
+ElementDataFile = 268.zraw
+
+ElementDataFile = 202.zraw
+
+ElementDataFile = 455.zraw
+
+ElementDataFile = 615.zraw
+
+ElementDataFile = 296.zraw
+
+ElementDataFile = 088.zraw
+
+ElementDataFile = 527.zraw
+
+ElementDataFile = 831.zraw
+
+ElementDataFile = 362.zraw
+
+ElementDataFile = 440.zraw
+
+ElementDataFile = 678.zraw
+
+ElementDataFile = 423.zraw
+
+ElementDataFile = 711.zraw
+
+ElementDataFile = 167.zraw
+
+ElementDataFile = 825.zraw
+
+ElementDataFile = 382.zraw
+
+ElementDataFile = 201.zraw
+
+ElementDataFile = 491.zraw
+
+ElementDataFile = 046.zraw
+
+ElementDataFile = 127.zraw
+
+ElementDataFile = 420.zraw
+
+ElementDataFile = 087.zraw
+
+ElementDataFile = 611.zraw
+
+ElementDataFile = 215.zraw
+
+ElementDataFile = 655.zraw
+
+ElementDataFile = 070.zraw
+
+ElementDataFile = 082.zraw
+
+ElementDataFile = 762.zraw
+
+ElementDataFile = 828.zraw
+
+ElementDataFile = 741.zraw
+
+ElementDataFile = 467.zraw
+
+ElementDataFile = 065.zraw
+
+ElementDataFile = 850.zraw
+
+ElementDataFile = 799.zraw
+
+ElementDataFile = 795.zraw
+
+ElementDataFile = 734.zraw
+
+ElementDataFile = 050.zraw
+
+ElementDataFile = 886.zraw
+
+ElementDataFile = 624.zraw
+
+ElementDataFile = 284.zraw
+
+ElementDataFile = 777.zraw
+
+ElementDataFile = 085.zraw
+
+ElementDataFile = 136.zraw
+
+ElementDataFile = 026.zraw
+
+ElementDataFile = 176.zraw
+
+ElementDataFile = 138.zraw
+
+ElementDataFile = 550.zraw
+
+ElementDataFile = 600.zraw
+
+ElementDataFile = 349.zraw
+
+ElementDataFile = 410.zraw
+
+ElementDataFile = 149.zraw
+
+ElementDataFile = 076.zraw
+
+ElementDataFile = 778.zraw
+
+ElementDataFile = 234.zraw
+
+ElementDataFile = 409.zraw
+
+ElementDataFile = 763.zraw
+
+ElementDataFile = 396.zraw
+
+ElementDataFile = 514.zraw
+
+ElementDataFile = 560.zraw
+
+ElementDataFile = 047.zraw
+
+ElementDataFile = 724.zraw
+
+ElementDataFile = 129.zraw
+
+ElementDataFile = 512.zraw
+
+ElementDataFile = 679.zraw
+
+ElementDataFile = 134.zraw
+
+ElementDataFile = 584.zraw
+
+ElementDataFile = 033.zraw
+
+ElementDataFile = 035.zraw
+
+ElementDataFile = 877.zraw
+
+ElementDataFile = 564.zraw
+
+ElementDataFile = 063.zraw
+
+ElementDataFile = 195.zraw
+
+ElementDataFile = 188.zraw
+
+ElementDataFile = 206.zraw
+
+ElementDataFile = 612.zraw
+
+ElementDataFile = 181.zraw
+
+ElementDataFile = 517.zraw
+
+ElementDataFile = 364.zraw
+
+ElementDataFile = 829.zraw
+
+ElementDataFile = 683.zraw
+
+ElementDataFile = 469.zraw
+
+ElementDataFile = 752.zraw
+
+ElementDataFile = 277.zraw
+
+ElementDataFile = 368.zraw
+
+ElementDataFile = 516.zraw
+
+ElementDataFile = 263.zraw
+
+ElementDataFile = 815.zraw
+
+ElementDataFile = 378.zraw
+
+ElementDataFile = 384.zraw
+
+ElementDataFile = 652.zraw
+
+ElementDataFile = 599.zraw
+
+ElementDataFile = 782.zraw
+
+ElementDataFile = 229.zraw
+
+ElementDataFile = 386.zraw
+
+ElementDataFile = 557.zraw
+
+ElementDataFile = 166.zraw
+
+ElementDataFile = 042.zraw
+
+ElementDataFile = 569.zraw
+
+ElementDataFile = 759.zraw
+
+ElementDataFile = 658.zraw
+
+ElementDataFile = 220.zraw
+
+ElementDataFile = 037.zraw
+
+ElementDataFile = 457.zraw
+
+ElementDataFile = 250.zraw
+
+ElementDataFile = 846.zraw
+
+ElementDataFile = 495.zraw
+
+ElementDataFile = 191.zraw
+
+ElementDataFile = 647.zraw
+
+ElementDataFile = 326.zraw
+
+ElementDataFile = 771.zraw
+
+ElementDataFile = 095.zraw
+
+ElementDataFile = 246.zraw
+
+ElementDataFile = 109.zraw
+
+ElementDataFile = 710.zraw
+
+ElementDataFile = 666.zraw
+
+ElementDataFile = 475.zraw
+
+ElementDataFile = 295.zraw
+
+ElementDataFile = 478.zraw
+
+ElementDataFile = 496.zraw
+
+ElementDataFile = 794.zraw
+
+ElementDataFile = 269.zraw
+
+ElementDataFile = 222.zraw
+
+ElementDataFile = 507.zraw
+
+ElementDataFile = 251.zraw
+
+ElementDataFile = 210.zraw
+
+ElementDataFile = 505.zraw
+
+ElementDataFile = 163.zraw
+
+ElementDataFile = 105.zraw
+
+ElementDataFile = 489.zraw
+
+ElementDataFile = 747.zraw
+
+ElementDataFile = 554.zraw
+
+ElementDataFile = 039.zraw
+
+ElementDataFile = 141.zraw
+
+ElementDataFile = 519.zraw
+
+ElementDataFile = 856.zraw
+
+ElementDataFile = 425.zraw
+
+ElementDataFile = 594.zraw
+
+ElementDataFile = 426.zraw
+
+ElementDataFile = 293.zraw
+
+ElementDataFile = 302.zraw
+
+ElementDataFile = 883.zraw
+
+ElementDataFile = 746.zraw
+
+ElementDataFile = 389.zraw
+
+ElementDataFile = 689.zraw
+
+ElementDataFile = 009.zraw
+
+ElementDataFile = 622.zraw
+
+ElementDataFile = 128.zraw
+
+ElementDataFile = 019.zraw
+
+ElementDataFile = 680.zraw
+
+ElementDataFile = 616.zraw
+
+ElementDataFile = 515.zraw
+
+ElementDataFile = 592.zraw
+
+ElementDataFile = 518.zraw
+
+ElementDataFile = 729.zraw
+
+ElementDataFile = 196.zraw
+
+ElementDataFile = 733.zraw
+
+ElementDataFile = 838.zraw
+
+ElementDataFile = 673.zraw
+
+ElementDataFile = 199.zraw
+
+ElementDataFile = 574.zraw
+
+ElementDataFile = 644.zraw
+
+ElementDataFile = 143.zraw
+
+ElementDataFile = 177.zraw
+
+ElementDataFile = 780.zraw
+
+ElementDataFile = 078.zraw
+
+ElementDataFile = 178.zraw
+
+ElementDataFile = 585.zraw
+
+ElementDataFile = 172.zraw
+
+ElementDataFile = 721.zraw
+
+ElementDataFile = 313.zraw
+
+ElementDataFile = 189.zraw
+
+ElementDataFile = 774.zraw
+
+ElementDataFile = 135.zraw
+
+ElementDataFile = 162.zraw
+
+ElementDataFile = 327.zraw
+
+ElementDataFile = 462.zraw
+
+ElementDataFile = 248.zraw
+
+ElementDataFile = 736.zraw
+
+ElementDataFile = 876.zraw
+
+ElementDataFile = 879.zraw
+
+ElementDataFile = 241.zraw
+
+ElementDataFile = 374.zraw
+
+ElementDataFile = 654.zraw
+
+ElementDataFile = 387.zraw
+
+ElementDataFile = 851.zraw
+
+ElementDataFile = 283.zraw
+
+ElementDataFile = 405.zraw
+
+ElementDataFile = 316.zraw
+
+ElementDataFile = 672.zraw
+
+ElementDataFile = 708.zraw
+
+ElementDataFile = 579.zraw
+
+ElementDataFile = 493.zraw
+
+ElementDataFile = 240.zraw
+
+ElementDataFile = 158.zraw
+
+ElementDataFile = 328.zraw
+
+ElementDataFile = 790.zraw
+
+ElementDataFile = 492.zraw
+
+ElementDataFile = 451.zraw
+
+ElementDataFile = 276.zraw
+
+ElementDataFile = 299.zraw
+
+ElementDataFile = 758.zraw
+
+ElementDataFile = 832.zraw
+
+ElementDataFile = 866.zraw
+
+ElementDataFile = 791.zraw
+
+ElementDataFile = 805.zraw
+
+ElementDataFile = 435.zraw
+
+ElementDataFile = 288.zraw
+
+ElementDataFile = 004.zraw
+
+ElementDataFile = 126.zraw
+
+ElementDataFile = 428.zraw
+
+ElementDataFile = 261.zraw
+
+ElementDataFile = 079.zraw
+
+ElementDataFile = 677.zraw
+
+ElementDataFile = 494.zraw
+
+ElementDataFile = 145.zraw
+
+ElementDataFile = 200.zraw
+
+ElementDataFile = 153.zraw
+
+ElementDataFile = 587.zraw
+
+ElementDataFile = 279.zraw
+
+ElementDataFile = 421.zraw
+
+ElementDataFile = 614.zraw
+
+ElementDataFile = 164.zraw
+
+ElementDataFile = 001.zraw
+
+ElementDataFile = 659.zraw
+
+ElementDataFile = 538.zraw
+
+ElementDataFile = 798.zraw
+
+ElementDataFile = 461.zraw
+
+ElementDataFile = 718.zraw
+
+ElementDataFile = 332.zraw
+
+ElementDataFile = 311.zraw
+
+ElementDataFile = 107.zraw
+
+ElementDataFile = 580.zraw
+
+ElementDataFile = 211.zraw
+
+ElementDataFile = 839.zraw
+
+ElementDataFile = 490.zraw
+
+ElementDataFile = 348.zraw
+
+ElementDataFile = 800.zraw
+
+ElementDataFile = 663.zraw
+
+ElementDataFile = 140.zraw
+
+ElementDataFile = 449.zraw
+
+ElementDataFile = 664.zraw
+
+ElementDataFile = 522.zraw
+
+ElementDataFile = 055.zraw
+
+ElementDataFile = 589.zraw
+
+ElementDataFile = 645.zraw
+
+ElementDataFile = 719.zraw
+
+ElementDataFile = 868.zraw
+
+ElementDataFile = 003.zraw
+
+ElementDataFile = 083.zraw
+
+ElementDataFile = 242.zraw
+
+ElementDataFile = 061.zraw
+
+ElementDataFile = 626.zraw
+
+ElementDataFile = 471.zraw
+
+ElementDataFile = 317.zraw
+
+ElementDataFile = 322.zraw
+
+ElementDataFile = 676.zraw
+
+ElementDataFile = 523.zraw
+
+ElementDataFile = 696.zraw
+
+ElementDataFile = 036.zraw
+
+ElementDataFile = 633.zraw
+
+ElementDataFile = 460.zraw
+
+ElementDataFile = 447.zraw
+
+ElementDataFile = 881.zraw
+
+ElementDataFile = 124.zraw
+
+ElementDataFile = 318.zraw
+
+ElementDataFile = 787.zraw
+
+ElementDataFile = 548.zraw
+
+ElementDataFile = 054.zraw
+
+ElementDataFile = 638.zraw
+
+ElementDataFile = 415.zraw
+
+ElementDataFile = 060.zraw
+
+ElementDataFile = 643.zraw
+
+ElementDataFile = 381.zraw
+
+ElementDataFile = 444.zraw
+
+ElementDataFile = 738.zraw
+
+ElementDataFile = 236.zraw
+
+ElementDataFile = 836.zraw
+
+ElementDataFile = 331.zraw
+
+ElementDataFile = 714.zraw
+
+ElementDataFile = 281.zraw
+
+ElementDataFile = 604.zraw
+
+ElementDataFile = 182.zraw
+
+ElementDataFile = 637.zraw
+
+ElementDataFile = 245.zraw
+
+ElementDataFile = 619.zraw
+
+ElementDataFile = 674.zraw
+
+ElementDataFile = 297.zraw
+
+ElementDataFile = 459.zraw
+
+ElementDataFile = 209.zraw
+
+ElementDataFile = 147.zraw
+
+ElementDataFile = 772.zraw
+
+ElementDataFile = 481.zraw
+
+ElementDataFile = 148.zraw
+
+ElementDataFile = 184.zraw
+
+ElementDataFile = 337.zraw
+
+ElementDataFile = 806.zraw
+
+ElementDataFile = 526.zraw
+
+ElementDataFile = 885.zraw
+
+ElementDataFile = 402.zraw
+
+ElementDataFile = 239.zraw
+
+ElementDataFile = 732.zraw
+
+ElementDataFile = 231.zraw
+
+ElementDataFile = 751.zraw
+
+ElementDataFile = 448.zraw
+
+ElementDataFile = 571.zraw
+
+ElementDataFile = 013.zraw
+
+ElementDataFile = 766.zraw
+
+ElementDataFile = 697.zraw
+
+ElementDataFile = 640.zraw
+
+ElementDataFile = 742.zraw
+
+ElementDataFile = 450.zraw
+
+ElementDataFile = 458.zraw
+
+ElementDataFile = 551.zraw
+
+ElementDataFile = 278.zraw
+
+ElementDataFile = 275.zraw
+
+ElementDataFile = 695.zraw
+
+ElementDataFile = 156.zraw
+
+ElementDataFile = 022.zraw
+
+ElementDataFile = 385.zraw
+
+ElementDataFile = 648.zraw
+
+ElementDataFile = 305.zraw
+
+ElementDataFile = 864.zraw
+
+ElementDataFile = 722.zraw
+
+ElementDataFile = 608.zraw
+
+ElementDataFile = 007.zraw
+
+ElementDataFile = 170.zraw
+
+ElementDataFile = 562.zraw
+
+ElementDataFile = 803.zraw
+
+ElementDataFile = 336.zraw
+
+ElementDataFile = 532.zraw
+
+ElementDataFile = 098.zraw
+
+ElementDataFile = 198.zraw
+
+ElementDataFile = 823.zraw
+
+ElementDataFile = 537.zraw
+
+ElementDataFile = 304.zraw
+
+ElementDataFile = 543.zraw
+
+ElementDataFile = 341.zraw
+
+ElementDataFile = 183.zraw
+
+ElementDataFile = 530.zraw
+
+ElementDataFile = 290.zraw
+
+ElementDataFile = 796.zraw
+
+ElementDataFile = 197.zraw
+
+ElementDataFile = 025.zraw
+
+ElementDataFile = 383.zraw
+
+ElementDataFile = 826.zraw
+
+ElementDataFile = 497.zraw
+
+ElementDataFile = 244.zraw
+
+ElementDataFile = 346.zraw
+
+ElementDataFile = 843.zraw
+
+ElementDataFile = 048.zraw
+
+ElementDataFile = 028.zraw
+
+ElementDataFile = 723.zraw
+
+ElementDataFile = 520.zraw
+
+ElementDataFile = 456.zraw
+
+ElementDataFile = 074.zraw
+
+ElementDataFile = 874.zraw
+
+ElementDataFile = 072.zraw
+
+ElementDataFile = 656.zraw
+
+ElementDataFile = 310.zraw
+
+ElementDataFile = 487.zraw
+
+ElementDataFile = 665.zraw
+
+ElementDataFile = 159.zraw
+
+ElementDataFile = 745.zraw
+
+ElementDataFile = 023.zraw
+
+ElementDataFile = 329.zraw
+
+ElementDataFile = 466.zraw
+
+ElementDataFile = 737.zraw
+
+ElementDataFile = 412.zraw
+
+ElementDataFile = 878.zraw
+
+ElementDataFile = 044.zraw
+
+ElementDataFile = 610.zraw
+
+ElementDataFile = 511.zraw
+
+ElementDataFile = 534.zraw
+
+ElementDataFile = 446.zraw
+
+ElementDataFile = 873.zraw
+
+ElementDataFile = 045.zraw
+
+ElementDataFile = 859.zraw
+
+ElementDataFile = 808.zraw
+
+ElementDataFile = 437.zraw
+
+ElementDataFile = 767.zraw
+
+ElementDataFile = 052.zraw
+
+ElementDataFile = 169.zraw
+
+ElementDataFile = 294.zraw
+
+ElementDataFile = 871.zraw
+
+ElementDataFile = 818.zraw
+
+ElementDataFile = 194.zraw
+
+ElementDataFile = 393.zraw
+
+ElementDataFile = 684.zraw
+
+ElementDataFile = 792.zraw
+
+ElementDataFile = 228.zraw
+
+ElementDataFile = 660.zraw
+
+ElementDataFile = 503.zraw
+
+ElementDataFile = 247.zraw
+
+ElementDataFile = 238.zraw
+
+ElementDataFile = 625.zraw
+
+ElementDataFile = 208.zraw
+
+ElementDataFile = 486.zraw
+
+ElementDataFile = 582.zraw
+
+ElementDataFile = 509.zraw
+
+ElementDataFile = 358.zraw
+
+ElementDataFile = 801.zraw
+
+ElementDataFile = 212.zraw
+
+ElementDataFile = 765.zraw
+
+ElementDataFile = 155.zraw
+
+ElementDataFile = 106.zraw
+
+ElementDataFile = 563.zraw
+
+ElementDataFile = 748.zraw
+
+ElementDataFile = 755.zraw
+
+ElementDataFile = 820.zraw
+
+ElementDataFile = 793.zraw
+
+ElementDataFile = 049.zraw
+
+ElementDataFile = 377.zraw
+
+ElementDataFile = 233.zraw
+
+ElementDataFile = 547.zraw
+
+ElementDataFile = 870.zraw
+
+ElementDataFile = 841.zraw
+
+ElementDataFile = 264.zraw
+
+ElementDataFile = 860.zraw
+
+ElementDataFile = 713.zraw
+
+ElementDataFile = 030.zraw
+
+ElementDataFile = 761.zraw
+
+ElementDataFile = 312.zraw
+
+ElementDataFile = 151.zraw
+
+ElementDataFile = 217.zraw
+
+ElementDataFile = 636.zraw
+
+ElementDataFile = 373.zraw
+
+ElementDataFile = 473.zraw
+
+ElementDataFile = 712.zraw
+
+ElementDataFile = 844.zraw
+
+ElementDataFile = 260.zraw
+
+ElementDataFile = 498.zraw
+
+ElementDataFile = 301.zraw
+
+ElementDataFile = 872.zraw
+
+ElementDataFile = 325.zraw
+
+ElementDataFile = 814.zraw
+
+ElementDataFile = 357.zraw
+
+ElementDataFile = 653.zraw
+
+ElementDataFile = 670.zraw
+
+ElementDataFile = 272.zraw
+
+ElementDataFile = 034.zraw
+
+ElementDataFile = 553.zraw
+
+ElementDataFile = 137.zraw
+
+ElementDataFile = 021.zraw
+
+ElementDataFile = 096.zraw
+
+ElementDataFile = 613.zraw
+
+ElementDataFile = 578.zraw
+
+ElementDataFile = 223.zraw
+
+ElementDataFile = 309.zraw
+
+ElementDataFile = 786.zraw
+
+ElementDataFile = 333.zraw
+
+ElementDataFile = 356.zraw
+
+ElementDataFile = 764.zraw
+
+ElementDataFile = 802.zraw
+
+ElementDataFile = 371.zraw
+
+ElementDataFile = 053.zraw
+
+ElementDataFile = 704.zraw
+
+ElementDataFile = 688.zraw
+
+ElementDataFile = 093.zraw
+
+ElementDataFile = 380.zraw
+
+ElementDataFile = 749.zraw
+
+ElementDataFile = 617.zraw
+
+ElementDataFile = 417.zraw
+
+ElementDataFile = 725.zraw
+
+ElementDataFile = 118.zraw
+
+ElementDataFile = 256.zraw
+
+ElementDataFile = 258.zraw
+
+ElementDataFile = 785.zraw
+
+ElementDataFile = 730.zraw
+
+ElementDataFile = 073.zraw
+
+ElementDataFile = 133.zraw
+
+ElementDataFile = 265.zraw
+
+ElementDataFile = 849.zraw
+
+ElementDataFile = 686.zraw
+
+ElementDataFile = 323.zraw
+
+ElementDataFile = 573.zraw
+
+ElementDataFile = 120.zraw
+
+ElementDataFile = 508.zraw
+
+ElementDataFile = 821.zraw
+
+ElementDataFile = 367.zraw
+
+ElementDataFile = 430.zraw
+
+ElementDataFile = 754.zraw
+
+ElementDataFile = 016.zraw
+
+ElementDataFile = 768.zraw
+
+ElementDataFile = 419.zraw
+
+ElementDataFile = 111.zraw
+
+ElementDataFile = 603.zraw
+
+ElementDataFile = 282.zraw
+
+ElementDataFile = 363.zraw
+
+ElementDataFile = 255.zraw
+
+ElementDataFile = 629.zraw
+
+ElementDataFile = 565.zraw
+
+ElementDataFile = 739.zraw
+
+ElementDataFile = 180.zraw
+
+ElementDataFile = 480.zraw
+
+ElementDataFile = 827.zraw
+
+ElementDataFile = 171.zraw
+
+ElementDataFile = 453.zraw
+
+ElementDataFile = 099.zraw
+
+ElementDataFile = 306.zraw
+
+ElementDataFile = 501.zraw
+
+ElementDataFile = 743.zraw
+
+ElementDataFile = 431.zraw
+
+ElementDataFile = 391.zraw
+
+ElementDataFile = 651.zraw
+
+ElementDataFile = 307.zraw
+
+ElementDataFile = 161.zraw
+
+ElementDataFile = 586.zraw
+
+ElementDataFile = 510.zraw
+
+ElementDataFile = 259.zraw
+
+ElementDataFile = 691.zraw
+
+ElementDataFile = 436.zraw
+
+ElementDataFile = 671.zraw
+
+ElementDataFile = 187.zraw
+
+ElementDataFile = 114.zraw
+
+ElementDataFile = 809.zraw
+
+ElementDataFile = 561.zraw
+
+ElementDataFile = 418.zraw
+
+ElementDataFile = 027.zraw
+
+ElementDataFile = 319.zraw
+
+ElementDataFile = 232.zraw
+
+ElementDataFile = 204.zraw
+
+ElementDataFile = 822.zraw
+
+ElementDataFile = 675.zraw
+
+ElementDataFile = 590.zraw
+
+ElementDataFile = 760.zraw
+
+ElementDataFile = 146.zraw
+
+ElementDataFile = 740.zraw
+
+ElementDataFile = 150.zraw
+
+ElementDataFile = 549.zraw
+
+ElementDataFile = 086.zraw
+
+ElementDataFile = 031.zraw
+
+ElementDataFile = 572.zraw
+
+ElementDataFile = 880.zraw
+
+ElementDataFile = 243.zraw
+
+ElementDataFile = 779.zraw
+
+ElementDataFile = 390.zraw
+
+ElementDataFile = 205.zraw
+
+ElementDataFile = 525.zraw
+
+ElementDataFile = 262.zraw
+
+ElementDataFile = 069.zraw
+
+ElementDataFile = 192.zraw
+
+ElementDataFile = 607.zraw
+
+ElementDataFile = 630.zraw
+
+ElementDataFile = 121.zraw
+
+ElementDataFile = 142.zraw
+
+ElementDataFile = 869.zraw
+
+ElementDataFile = 731.zraw
+
+ElementDataFile = 728.zraw
+
+ElementDataFile = 797.zraw
+
+ElementDataFile = 482.zraw
+
+ElementDataFile = 335.zraw
+
+ElementDataFile = 237.zraw
+
+ElementDataFile = 064.zraw
+
+ElementDataFile = 621.zraw
+
+ElementDataFile = 203.zraw
+
+ElementDataFile = 334.zraw
+
+ElementDataFile = 175.zraw
+
+ElementDataFile = 221.zraw
+
+ElementDataFile = 857.zraw
+
+ElementDataFile = 575.zraw
+
+ElementDataFile = 015.zraw
+
+ElementDataFile = 080.zraw
+
+ElementDataFile = 646.zraw
+
+ElementDataFile = 029.zraw
+
+ElementDataFile = 062.zraw
+
+ElementDataFile = 406.zraw
+
+ElementDataFile = 784.zraw
+
+ElementDataFile = 225.zraw
+
+ElementDataFile = 343.zraw
+
+ElementDataFile = 595.zraw
+
+ElementDataFile = 454.zraw
+
+ElementDataFile = 468.zraw
+
+ElementDataFile = 824.zraw
+
+ElementDataFile = 032.zraw
+
+ElementDataFile = 354.zraw
+
+ElementDataFile = 788.zraw
+
+ElementDataFile = 351.zraw
+
+ElementDataFile = 521.zraw
+
+ElementDataFile = 359.zraw
+
+ElementDataFile = 601.zraw
+
+ElementDataFile = 224.zraw
+
+ElementDataFile = 308.zraw
+
+ElementDataFile = 773.zraw
+
+ElementDataFile = 703.zraw
+
+ElementDataFile = 291.zraw
+
+ElementDataFile = 214.zraw
+
+ElementDataFile = 847.zraw
+
+ElementDataFile = 152.zraw
+
+ElementDataFile = 687.zraw
+
+ElementDataFile = 112.zraw
+
+ElementDataFile = 115.zraw
+
+ElementDataFile = 226.zraw
+
+ElementDataFile = 735.zraw
+
+ElementDataFile = 706.zraw
+
+ElementDataFile = 597.zraw
+
+ElementDataFile = 635.zraw
+
+ElementDataFile = 394.zraw
+
+ElementDataFile = 463.zraw
+
+ElementDataFile = 690.zraw
+
+ElementDataFile = 570.zraw
+
+ElementDataFile = 219.zraw
+
+ElementDataFile = 005.zraw
+
+ElementDataFile = 642.zraw
+
+ElementDataFile = 853.zraw
+
+ElementDataFile = 863.zraw
+
+ElementDataFile = 439.zraw
+
+ElementDataFile = 257.zraw
+
+ElementDataFile = 157.zraw
+
+ElementDataFile = 596.zraw
+
+ElementDataFile = 160.zraw
+
+ElementDataFile = 464.zraw
+
+ElementDataFile = 606.zraw
+
+ElementDataFile = 347.zraw
+
+ElementDataFile = 103.zraw
+
+ElementDataFile = 345.zraw
+
+ElementDataFile = 000.zraw
+
+ElementDataFile = 567.zraw
+
+ElementDataFile = 286.zraw
+
+ElementDataFile = 620.zraw
+
+ElementDataFile = 411.zraw
+
+ElementDataFile = 775.zraw
+
+ElementDataFile = 476.zraw
+
+ElementDataFile = 727.zraw
+
+ElementDataFile = 179.zraw
+
+ElementDataFile = 744.zraw
+
+ElementDataFile = 770.zraw
+
+ElementDataFile = 002.zraw
+
+ElementDataFile = 125.zraw
+
+ElementDataFile = 581.zraw
+
+ElementDataFile = 131.zraw
+
+ElementDataFile = 100.zraw
+
+ElementDataFile = 632.zraw
+
+ElementDataFile = 122.zraw
+
+ElementDataFile = 546.zraw
+
+ElementDataFile = 193.zraw
+
+ElementDataFile = 531.zraw
+
+ElementDataFile = 185.zraw
+
+ElementDataFile = 438.zraw
+
+ElementDataFile = 753.zraw
+
+ElementDataFile = 817.zraw
+
+ElementDataFile = 355.zraw
+
+ElementDataFile = 068.zraw
+
+ElementDataFile = 661.zraw
+
+ElementDataFile = 091.zraw
+
+end changing luna name
+starting preprocessing luna
+end preprocessing luna
+2
+using gpu 0,1
