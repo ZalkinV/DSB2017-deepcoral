@@ -11,6 +11,8 @@ from torch.autograd import Variable
 from torch.nn.functional import cross_entropy,sigmoid,binary_cross_entropy
 from torch.utils.data import DataLoader
 
+import deep_coral
+
 def get_lr(epoch,args):
     assert epoch<=args.lr_stage2[-1]
     if args.lr==None:
@@ -32,6 +34,7 @@ def train_casenet(epoch,model,data_loader,optimizer,args):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
+    coral_loss_hist = []
     loss1Hist = []
     loss2Hist = []
     missHist = []
@@ -55,14 +58,17 @@ def train_casenet(epoch,model,data_loader,optimizer,args):
 #         weight = 3*torch.ones(y.size()).float().cuda()
         optimizer.zero_grad()
         nodulePred,casePred,casePred_each = model(x,coord)
+
+        coral_loss = deep_coral.coral(casePred, y[:, 0])
         loss2 = binary_cross_entropy(casePred,y[:,0])
         missMask = (casePred_each<args.miss_thresh).float()
         missLoss = -torch.sum(missMask*isnod*torch.log(casePred_each+0.001))/xsize[0]/xsize[1]
-        loss = loss2+args.miss_ratio*missLoss
+        loss = loss2 + args.miss_ratio * missLoss + coral_loss
         loss.backward()
         #torch.nn.utils.clip_grad_norm(model.parameters(), 1)
 
         optimizer.step()
+        coral_loss_hist.append(coral_loss.data[0])
         loss2Hist.append(loss2.data[0])
         missHist.append(missLoss.data[0])
         lenHist.append(len(x))
@@ -76,16 +82,18 @@ def train_casenet(epoch,model,data_loader,optimizer,args):
         accHist.append(acc)
         
     endtime = time.time()
+    coral_loss_hist = np.array(coral_loss_hist)
     lenHist = np.array(lenHist)
     loss2Hist = np.array(loss2Hist)
     lossHist = np.array(lossHist)
     accHist = np.array(accHist)
     
+    coral_loss_mid = np.sum(coral_loss_hist * lenHist)/np.sum(lenHist)
     mean_loss2 = np.sum(loss2Hist*lenHist)/np.sum(lenHist)
     mean_missloss = np.sum(missHist*lenHist)/np.sum(lenHist)
     mean_acc = np.sum(accHist*lenHist)/np.sum(lenHist)
-    print('Train, epoch %d, loss2 %.4f, miss loss %.4f, acc %.4f, tpn %d, fpn %d, fnn %d, time %3.2f, lr % .5f '
-          %(epoch,mean_loss2,mean_missloss,mean_acc,tpn,fpn, fnn, endtime-starttime,lr))
+    print('Train, epoch %d, loss2 %.4f, coral_loss %.4f, miss loss %.4f, acc %.4f, tpn %d, fpn %d, fnn %d, time %3.2f, lr % .5f '
+          %(epoch,mean_loss2,coral_loss_mid, mean_missloss,mean_acc,tpn,fpn, fnn, endtime-starttime,lr))
 
 def val_casenet(epoch,model,data_loader,args):
     model.eval()
