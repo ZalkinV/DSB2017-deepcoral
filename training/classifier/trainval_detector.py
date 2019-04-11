@@ -12,6 +12,8 @@ from torch.autograd import Variable
 
 from layers import acc
 
+import deep_coral
+
 def get_lr(epoch,args):
     assert epoch<=args.lr_stage[-1]
     if args.lr==None:
@@ -33,6 +35,7 @@ def train_nodulenet(data_loader, net, loss, epoch, optimizer, args):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
+    coral_loss_hist = []
     metrics = []
     for i, (data, target, coord) in enumerate(data_loader):
         if args.debug:
@@ -43,13 +46,15 @@ def train_nodulenet(data_loader, net, loss, epoch, optimizer, args):
         coord = Variable(coord.cuda(async = True))
 
         _,output = net(data, coord)
-        loss_output = loss(output, target)
+        coral_loss = deep_coral.coral(output, target)
+        loss_output = loss(output, target) + coral_loss
         optimizer.zero_grad()
         loss_output[0].backward()
         #torch.nn.utils.clip_grad_norm(net.parameters(), 1)
         optimizer.step()
 
         loss_output[0] = loss_output[0].data[0]
+        coral_loss_hist.append(coral_loss)
         metrics.append(loss_output)
 
     end_time = time.time()
@@ -62,8 +67,9 @@ def train_nodulenet(data_loader, net, loss, epoch, optimizer, args):
         np.sum(metrics[:, 7]),
         np.sum(metrics[:, 9]),
         end_time - start_time))
-    print('loss %2.4f, classify loss %2.4f, regress loss %2.4f, %2.4f, %2.4f, %2.4f' % (
+    print('loss %2.4f, coral_loss %2.4, classify loss %2.4f, regress loss %2.4f, %2.4f, %2.4f, %2.4f' % (
         np.mean(metrics[:, 0]),
+        np.mean(coral_loss_hist),
         np.mean(metrics[:, 1]),
         np.mean(metrics[:, 2]),
         np.mean(metrics[:, 3]),
