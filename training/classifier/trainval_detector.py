@@ -82,6 +82,7 @@ def validate_nodulenet(data_loader, net, loss):
     
     net.eval()
 
+    coral_loss_hist = []
     metrics = []
     for i, (data, target, coord) in enumerate(data_loader):
         data = Variable(data.cuda(async = True), volatile = True)
@@ -89,9 +90,11 @@ def validate_nodulenet(data_loader, net, loss):
         coord = Variable(coord.cuda(async = True), volatile = True)
 
         _,output = net(data, coord)
-        loss_output = loss(output, target, train = False)
+        coral_loss = deep_coral.coral(output, target)
+        loss_output = loss(output, target, train = False) + coral_loss
 
         loss_output[0] = loss_output[0].data[0]
+        coral_loss_hist.append(coral_loss)
         metrics.append(loss_output)    
     end_time = time.time()
 
@@ -102,8 +105,9 @@ def validate_nodulenet(data_loader, net, loss):
         np.sum(metrics[:, 7]),
         np.sum(metrics[:, 9]),
         end_time - start_time))
-    print('loss %2.4f, classify loss %2.4f, regress loss %2.4f, %2.4f, %2.4f, %2.4f' % (
+    print('loss %2.4f, coral_loss %2.4f, classify loss %2.4f, regress loss %2.4f, %2.4f, %2.4f, %2.4f' % (
         np.mean(metrics[:, 0]),
+        np.mean(coral_loss_hist),
         np.mean(metrics[:, 1]),
         np.mean(metrics[:, 2]),
         np.mean(metrics[:, 3]),
